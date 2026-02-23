@@ -13,7 +13,7 @@ export default function AgenturPage() {
 
             <div className="card">
               <h3>Schnellere Angebote</h3>
-              <p>Standardisierte, aber flexible Angebotslogik – in Minuten statt Stunden.</p>
+              <p>Standardisierte, aber flexible Angebotslogik ï¿½ in Minuten statt Stunden.</p>
             </div>
 
             <div className="card">
