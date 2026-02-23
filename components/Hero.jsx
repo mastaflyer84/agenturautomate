@@ -35,6 +35,9 @@ export default function Hero() {
         </div>
 
       </div>
+      <div className="container">
+  ...
+</div>
     </section>
   );
 }

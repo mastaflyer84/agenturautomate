@@ -74,7 +74,9 @@ export default function OfferGenerator() {
             <option>Strategie & Beratung</option>
           </select>
         </div>
-
+        <div className="container">
+  ...
+</div>
         <button type="submit" className="btn btn-primary btn-full">
           Angebotsentwurf generieren
         </button>
@@ -92,5 +94,6 @@ export default function OfferGenerator() {
         </pre>
       )}
     </div>
+    
   );
 }

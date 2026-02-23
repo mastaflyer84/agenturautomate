@@ -61,7 +61,9 @@ export default function Chatbot() {
           </div>
         ))}
       </div>
-
+        <div className="container">
+  ...
+</div>
       <div className="chat-input-row">
         <input
           value={input}

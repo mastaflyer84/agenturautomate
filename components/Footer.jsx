@@ -11,6 +11,9 @@
           <a href="#">Datenschutz</a>
         </div>
       </div>
+      <div className="container">
+  ...
+</div>
     </footer>
   );
 }
