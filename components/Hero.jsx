@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect } from "react";
 import gsap from "gsap";
@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="hero-content">
           <h1 className="hero-title">Automatisiere deine Marketing-Agentur</h1>
           <p className="hero-sub">
-            Wissens-Chatbot & Angebotsgenerator � weniger Aufwand, mehr Umsatz, klarere Prozesse.
+            Wissens-Chatbot & Angebotsgenerator – weniger Aufwand, mehr Umsatz, klarere Prozesse.
           </p>
 
           <div className="hero-actions">

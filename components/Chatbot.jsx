@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect, useRef } from "react";
 
@@ -6,7 +6,7 @@ const cannedAnswers = [
   {
     keywords: ["onboarding", "einarbeitung"],
     answer:
-      "Unser Onboarding-Prozess umfasst Kick-off-Call, Zugangseinrichtung, Tool-Setup und erste Kampagnenplanung innerhalb von 7�10 Tagen."
+      "Unser Onboarding-Prozess umfasst Kick-off-Call, Zugangseinrichtung, Tool-Setup und erste Kampagnenplanung innerhalb von 7–10 Tagen."
   },
   {
     keywords: ["seo", "seo-paket"],

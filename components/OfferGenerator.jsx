@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 
@@ -7,7 +7,7 @@ function generateOffer({ industry, budget, goals, services }) {
     services.length > 0 ? services.join(", ") : "individuell abgestimmte Leistungen";
 
   return [
-    `Angebotsentwurf � ${industry || "Kunde"}`,
+    `Angebotsentwurf – ${industry || "Kunde"}`,
     "",
     `Budgetrahmen: ca. ${budget || "n. n."} &euro; / Monat`,
     "",
