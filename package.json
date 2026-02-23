@@ -1,16 +1,17 @@
 {
-  "name": "aurora-agency-next",
+  "name": "agenturautomate",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.0.0",
-    "react": "18.3.0",
-    "react-dom": "18.3.0",
+    "next": "latest",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "gsap": "^3.12.5"
   }
 }
