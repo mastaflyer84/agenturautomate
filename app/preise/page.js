@@ -1,4 +1,4 @@
-export default function PreisePage() {
+﻿export default function PreisePage() {
   return (
     <main>
       <section className="section">

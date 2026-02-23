@@ -1,4 +1,4 @@
-"use client";
+ï»¿"use client";
 
 import { useState } from "react";
 
@@ -34,9 +34,9 @@ export default function KontaktPage() {
             <div className="form-group">
               <label>Teamgr&ouml;&szlig;e</label>
               <select>
-                <option>1–5</option>
-                <option>6–15</option>
-                <option>16–30</option>
+                <option>1â€“5</option>
+                <option>6â€“15</option>
+                <option>16â€“30</option>
                 <option>30+</option>
               </select>
             </div>

@@ -1,4 +1,4 @@
-import OfferGenerator from "../../components/OfferGenerator";
+﻿import OfferGenerator from "../../components/OfferGenerator";
 
 export default function AngebotePage() {
   return (
