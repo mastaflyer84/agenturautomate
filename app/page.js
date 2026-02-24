@@ -1,25 +1,13 @@
-﻿import Hero from "../components/Hero";
-import Feature from "../components/Features";
-export default function HomePage() {
-  return (
-    <main>
-      <Hero />
-      <Feature />
-      <section className="section">
-        <div className="container grid grid-2">
-          <div className="card">
-            <h2>Wissens-Chatbot</h2>
-            <p>Dein gesamtes Agentur-Wissen als Chatbot – Prozesse, FAQs, Leistungsbeschreibungen, Onboarding.</p>
-            <a href="/chatbot" className="btn btn-secondary">Mehr erfahren</a>
-          </div>
+﻿import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 
-          <div className="card">
-            <h2>Angebotsgenerator</h2>
-            <p>Erstelle Angebote in Minuten statt Stunden – mit konsistentem Wording und klarer Struktur.</p>
-            <a href="/angebote" className="btn btn-secondary">Mehr erfahren</a>
-          </div>
-        </div>
-      </section>
+export default function Home() {
+  return (
+    <main className="bg-[#0d0d0d]">
+      <Hero />
+      <Features />
+      <Footer />
     </main>
   );
 }
