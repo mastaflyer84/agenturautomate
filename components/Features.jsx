@@ -1,63 +1,59 @@
 export default function Features() {
   return (
-    <section className="w-full bg-[#0d0d0d] py-24 md:py-32">
+    <section className="w-full bg-[#0d0d0d] py-24">
       <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
-        
+
         {/* HEADER */}
-        <div className="text-center space-y-6 max-w-3xl mx-auto">
+        <div className="text-center space-y-4 max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            Alles, was deine Agentur braucht — in einem System.
+            Alles, was deine Agentur braucht.
           </h2>
-          <p className="text-lg text-gray-300">
-            AgenturAutomate ersetzt mehrere Tools gleichzeitig und automatisiert die Abläufe, 
-            die dich täglich Zeit kosten.
+          <p className="text-gray-400 text-lg">
+            Ein System, das deine Abläufe automatisiert und dir Zeit zurückgibt.
           </p>
         </div>
 
-        {/* FEATURES GRID */}
-        <div className="mt-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
-          
-          {/* Feature 1 */}
-          <div className="space-y-4">
+        {/* GRID */}
+        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+          {/* CARD */}
+          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
             <div className="h-12 w-12 rounded-lg bg-blue-600/20 flex items-center justify-center text-blue-400 text-2xl">
               📁
             </div>
-            <h3 className="text-xl font-semibold text-white">CRM & Kundenverwaltung</h3>
-            <p className="text-gray-400">
-              Behalte Leads, Kunden und Projekte jederzeit im Blick — übersichtlich, schnell und intuitiv.
+            <h3 className="mt-4 text-lg font-semibold text-white">CRM & Kunden</h3>
+            <p className="mt-2 text-gray-400 text-sm">
+              Leads, Kunden und Projekte klar strukturiert — jederzeit im Blick.
             </p>
           </div>
 
-          {/* Feature 2 */}
-          <div className="space-y-4">
+          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
             <div className="h-12 w-12 rounded-lg bg-purple-600/20 flex items-center justify-center text-purple-400 text-2xl">
               ⚙️
             </div>
-            <h3 className="text-xl font-semibold text-white">Automationen</h3>
-            <p className="text-gray-400">
-              Automatisiere Follow‑ups, Onboarding, Rechnungen und wiederkehrende Aufgaben ohne manuelle Arbeit.
+            <h3 className="mt-4 text-lg font-semibold text-white">Automationen</h3>
+            <p className="mt-2 text-gray-400 text-sm">
+              Follow‑ups, Onboarding, Rechnungen — komplett automatisiert.
             </p>
           </div>
 
-          {/* Feature 3 */}
-          <div className="space-y-4">
+          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
             <div className="h-12 w-12 rounded-lg bg-pink-600/20 flex items-center justify-center text-pink-400 text-2xl">
               💬
             </div>
-            <h3 className="text-xl font-semibold text-white">Kommunikation</h3>
-            <p className="text-gray-400">
-              Zentrale Inbox für E‑Mails, Nachrichten und Kundenanfragen — alles an einem Ort.
+            <h3 className="mt-4 text-lg font-semibold text-white">Kommunikation</h3>
+            <p className="mt-2 text-gray-400 text-sm">
+              E‑Mails, Nachrichten und Anfragen zentral an einem Ort.
             </p>
           </div>
 
-          {/* Feature 4 */}
-          <div className="space-y-4">
+          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
             <div className="h-12 w-12 rounded-lg bg-green-600/20 flex items-center justify-center text-green-400 text-2xl">
               💳
             </div>
-            <h3 className="text-xl font-semibold text-white">Abrechnung & Finanzen</h3>
-            <p className="text-gray-400">
-              Rechnungen, Angebote, Zahlungen und Reports in einem System — ohne externe Tools.
+            <h3 className="mt-4 text-lg font-semibold text-white">Abrechnung</h3>
+            <p className="mt-2 text-gray-400 text-sm">
+              Rechnungen, Angebote, Zahlungen — ohne externe Tools.
             </p>
           </div>
 

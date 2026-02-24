@@ -1,45 +1,40 @@
 ﻿export default function Footer() {
   return (
-    <footer className="w-full bg-[#0b0b0b] border-t border-white/10 py-16 mt-32">
+    <footer className="w-full bg-[#0b0b0b] border-t border-white/10 py-12">
       <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
 
-        {/* TOP SECTION */}
-        <div className="grid gap-12 md:grid-cols-4">
+        {/* TOP */}
+        <div className="grid gap-10 md:grid-cols-4">
 
           {/* BRAND */}
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-white">AgenturAutomate</h3>
+          <div className="space-y-3">
+            <h3 className="text-xl font-bold text-white">AgenturAutomate</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Die All‑in‑One Plattform für moderne Agenturen.  
-              Automatisiere Prozesse, spare Zeit und wachse effizienter.
+              Die All‑in‑One Plattform für moderne Agenturen.
             </p>
           </div>
 
-          {/* LINKS 1 */}
+          {/* LINKS */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Produkt</h4>
-            <ul className="space-y-3 text-gray-400">
+            <h4 className="text-white font-semibold mb-3">Produkt</h4>
+            <ul className="space-y-2 text-gray-400 text-sm">
               <li><a href="#" className="hover:text-white transition">Features</a></li>
               <li><a href="#" className="hover:text-white transition">Preise</a></li>
               <li><a href="#" className="hover:text-white transition">Demo</a></li>
-              <li><a href="#" className="hover:text-white transition">Roadmap</a></li>
             </ul>
           </div>
 
-          {/* LINKS 2 */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Unternehmen</h4>
-            <ul className="space-y-3 text-gray-400">
+            <h4 className="text-white font-semibold mb-3">Unternehmen</h4>
+            <ul className="space-y-2 text-gray-400 text-sm">
               <li><a href="#" className="hover:text-white transition">Über uns</a></li>
               <li><a href="#" className="hover:text-white transition">Kontakt</a></li>
-              <li><a href="#" className="hover:text-white transition">Blog</a></li>
             </ul>
           </div>
 
-          {/* LINKS 3 */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Rechtliches</h4>
-            <ul className="space-y-3 text-gray-400">
+            <h4 className="text-white font-semibold mb-3">Rechtliches</h4>
+            <ul className="space-y-2 text-gray-400 text-sm">
               <li><a href="#" className="hover:text-white transition">Impressum</a></li>
               <li><a href="#" className="hover:text-white transition">Datenschutz</a></li>
               <li><a href="#" className="hover:text-white transition">AGB</a></li>
@@ -48,13 +43,13 @@
 
         </div>
 
-        {/* BOTTOM SECTION */}
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-gray-500 text-sm">
+        {/* BOTTOM */}
+        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-gray-500 text-xs">
             © {new Date().getFullYear()} AgenturAutomate. Alle Rechte vorbehalten.
           </p>
 
-          <div className="flex gap-6 text-gray-400 text-xl">
+          <div className="flex gap-4 text-gray-400 text-lg">
             <a href="#" className="hover:text-white transition">🐦</a>
             <a href="#" className="hover:text-white transition">💼</a>
             <a href="#" className="hover:text-white transition">📸</a>
