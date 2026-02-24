@@ -1,10 +1,10 @@
 ﻿import Hero from "../components/Hero";
-import Feature from "../components/Feature";
+import Feature from "../components/Features";
 export default function HomePage() {
   return (
     <main>
       <Hero />
-
+      <Feature />
       <section className="section">
         <div className="container grid grid-2">
           <div className="card">
