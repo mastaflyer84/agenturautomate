@@ -28,6 +28,7 @@ export default function Navbar() {
           <Link href="/agentur" className={isActive("/agentur")}>Für Agenturen</Link>
           <Link href="/preise" className={isActive("/preise")}>Preise</Link>
           <Link href="/kontakt" className={`btn btn-primary btn-small ${isActive("/kontakt")}`}>Demo</Link>
+          <Link href="/about" className={`hover:text-white transition ${isActive("/about")}`}>Über uns</Link>
         </nav>
 
         {/* Mobile Hamburger Button */}

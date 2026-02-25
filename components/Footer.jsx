@@ -8,14 +8,13 @@
         <div className="absolute bottom-20 right-0 w-[550px] h-[550px] bg-teal-400/15 blur-[180px] rounded-full"></div>
       </div>
 
-      {/* WICHTIG: Dieser Container darf NICHT schmaler sein */}
       <div className="relative max-w-7xl mx-auto px-6 w-full">
 
-        {/* WICHTIG: Kein flex, kein width-limit, kein container */}
+        {/* GRID: garantiert nebeneinander */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 w-full">
 
           {/* Produkt */}
-          <div className="w-full">
+          <div>
             <h4 className="text-white font-medium mb-4">Produkt</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a className="hover:text-white transition" href="#">Features</a></li>
@@ -26,7 +25,7 @@
           </div>
 
           {/* Unternehmen */}
-          <div className="w-full">
+          <div>
             <h4 className="text-white font-medium mb-4">Unternehmen</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a className="hover:text-white transition" href="#">Über uns</a></li>
@@ -36,7 +35,7 @@
           </div>
 
           {/* Rechtliches */}
-          <div className="w-full">
+          <div>
             <h4 className="text-white font-medium mb-4">Rechtliches</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a className="hover:text-white transition" href="#">Impressum</a></li>
