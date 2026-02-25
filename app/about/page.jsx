@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="bg-[#0A0A0A] text-white">
+    <div className="sectiom">
 
       {/* Aurora Background */}
       <div className="absolute inset-0 pointer-events-none -z-10">
@@ -17,7 +17,7 @@ export default function AboutPage() {
           </span>
         </h1>
 
-        <p className="text-gray-300 text-lg leading-relaxed">
+        <p className="card">
           Wir helfen Marketing‑Agenturen dabei, ihre Prozesse zu automatisieren, Wissen zu zentralisieren 
           und Angebote schneller zu erstellen.
         </p>
@@ -36,7 +36,7 @@ export default function AboutPage() {
         </div>
 
         {/* Vision */}
-        <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+        <div className="card">
           <h3 className="text-2xl font-semibold mb-4">Unsere Vision</h3>
           <p className="text-gray-300 leading-relaxed">
             Eine Welt, in der Agenturen mit klaren Strukturen, automatisierten Abläufen und 
