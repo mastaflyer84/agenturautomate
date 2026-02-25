@@ -1,59 +1,44 @@
 export default function Features() {
   return (
-    <section className="w-full bg-[#0d0d0d] py-24">
-      <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
+    <section className="relative py-32 bg-[#0A0A0A] text-white overflow-hidden">
 
-        {/* HEADER */}
-        <div className="text-center space-y-4 max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">
-            Alles, was deine Agentur braucht.
-          </h2>
-          <p className="text-gray-400 text-lg">
-            Ein System, das deine Abläufe automatisiert und dir Zeit zurückgibt.
-          </p>
-        </div>
+      {/* Aurora Background */}
+      <div className="absolute inset-0 pointer-events-none -z-10">
+        <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-purple-500/20 blur-[160px] rounded-full"></div>
+        <div className="absolute top-40 right-0 w-[550px] h-[550px] bg-teal-400/20 blur-[180px] rounded-full"></div>
+      </div>
 
-        {/* GRID */}
-        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="relative max-w-7xl mx-auto px-6">
 
-          {/* CARD */}
-          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
-            <div className="h-12 w-12 rounded-lg bg-blue-600/20 flex items-center justify-center text-blue-400 text-2xl">
-              📁
-            </div>
-            <h3 className="mt-4 text-lg font-semibold text-white">CRM & Kunden</h3>
-            <p className="mt-2 text-gray-400 text-sm">
-              Leads, Kunden und Projekte klar strukturiert — jederzeit im Blick.
+        {/* Headline */}
+        <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-center mb-16">
+          Was AgenturAutomate für dich tut
+        </h2>
+
+        {/* Feature Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+          {/* Feature 1 */}
+          <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+            <h3 className="text-xl font-semibold mb-3">Angebote in Minuten</h3>
+            <p className="text-gray-300 leading-relaxed text-[15px]">
+              Erstelle professionelle Angebote in Rekordzeit — klar strukturiert, automatisch formuliert und sofort versandbereit.
             </p>
           </div>
 
-          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
-            <div className="h-12 w-12 rounded-lg bg-purple-600/20 flex items-center justify-center text-purple-400 text-2xl">
-              ⚙️
-            </div>
-            <h3 className="mt-4 text-lg font-semibold text-white">Automationen</h3>
-            <p className="mt-2 text-gray-400 text-sm">
-              Follow‑ups, Onboarding, Rechnungen — komplett automatisiert.
+          {/* Feature 2 */}
+          <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+            <h3 className="text-xl font-semibold mb-3">Wissens‑Chatbot</h3>
+            <p className="text-gray-300 leading-relaxed text-[15px]">
+              Lade dein Agentur‑Wissen hoch und lass dein Team jederzeit darauf zugreifen — ohne Chaos, ohne Suchen.
             </p>
           </div>
 
-          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
-            <div className="h-12 w-12 rounded-lg bg-pink-600/20 flex items-center justify-center text-pink-400 text-2xl">
-              💬
-            </div>
-            <h3 className="mt-4 text-lg font-semibold text-white">Kommunikation</h3>
-            <p className="mt-2 text-gray-400 text-sm">
-              E‑Mails, Nachrichten und Anfragen zentral an einem Ort.
-            </p>
-          </div>
-
-          <div className="group p-6 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
-            <div className="h-12 w-12 rounded-lg bg-green-600/20 flex items-center justify-center text-green-400 text-2xl">
-              💳
-            </div>
-            <h3 className="mt-4 text-lg font-semibold text-white">Abrechnung</h3>
-            <p className="mt-2 text-gray-400 text-sm">
-              Rechnungen, Angebote, Zahlungen — ohne externe Tools.
+          {/* Feature 3 */}
+          <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+            <h3 className="text-xl font-semibold mb-3">Automatisierte Prozesse</h3>
+            <p className="text-gray-300 leading-relaxed text-[15px]">
+              Automatisiere wiederkehrende Aufgaben und spare jeden Tag wertvolle Zeit — ganz ohne technische Hürden.
             </p>
           </div>
 
