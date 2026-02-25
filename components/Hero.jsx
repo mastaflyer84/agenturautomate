@@ -4,15 +4,15 @@
 
       {/* Aurora Background */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-purple-500/20 blur-[140px] rounded-full"></div>
-        <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-teal-400/20 blur-[160px] rounded-full"></div>
+        <div className="absolute -top-40 -left-40 w-[650px] h-[650px] bg-purple-500/25 blur-[150px] rounded-full"></div>
+        <div className="absolute top-20 right-0 w-[550px] h-[550px] bg-teal-400/25 blur-[170px] rounded-full"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 text-center">
 
         {/* Headline */}
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-6">
-          Die moderne Plattform für{" "}
+        <h1 className="text-4xl md:text-6xl font-semibold tracking-tight mb-6 leading-tight">
+          Die Plattform für{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-300">
             automatisierte Agenturprozesse
           </span>
@@ -41,10 +41,14 @@
           </a>
         </div>
 
-        {/* Premium Cards (Hero-Style) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        {/* Premium Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
-          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
+          {/* Card 1 */}
+          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition group">
+            <div className="text-3xl mb-4 opacity-80 group-hover:opacity-100 transition">
+              ⚡
+            </div>
             <h3 className="text-xl font-semibold tracking-tight text-white mb-3">
               Weniger Chaos
             </h3>
@@ -53,7 +57,11 @@
             </p>
           </div>
 
-          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
+          {/* Card 2 */}
+          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition group">
+            <div className="text-3xl mb-4 opacity-80 group-hover:opacity-100 transition">
+              ⏱️
+            </div>
             <h3 className="text-xl font-semibold tracking-tight text-white mb-3">
               Schnellere Abläufe
             </h3>
@@ -62,12 +70,29 @@
             </p>
           </div>
 
-          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
+          {/* Card 3 */}
+          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition group">
+            <div className="text-3xl mb-4 opacity-80 group-hover:opacity-100 transition">
+              📈
+            </div>
             <h3 className="text-xl font-semibold tracking-tight text-white mb-3">
               Bessere Skalierung
             </h3>
             <p className="text-gray-400 leading-relaxed text-[15px]">
               Wissen hängt nicht mehr an einzelnen Personen, sondern an Systemen.
+            </p>
+          </div>
+
+          {/* Card 4 */}
+          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition group">
+            <div className="text-3xl mb-4 opacity-80 group-hover:opacity-100 transition">
+              🤝
+            </div>
+            <h3 className="text-xl font-semibold tracking-tight text-white mb-3">
+              Klare Zusammenarbeit
+            </h3>
+            <p className="text-gray-400 leading-relaxed text-[15px]">
+              Jeder weiß jederzeit, was zu tun ist — ohne Meetings oder Nachfragen.
             </p>
           </div>
 
