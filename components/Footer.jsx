@@ -29,7 +29,7 @@
         </div>
 
         {/* Right Side: Navigation */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-12 md:w-2/3">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 md:w-2/3">
 
           {/* Produkt */}
           <div>
