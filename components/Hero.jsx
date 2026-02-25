@@ -11,21 +11,21 @@
       <div className="relative max-w-7xl mx-auto px-6 text-center">
 
         {/* Headline */}
-        <h1 className="text-4xl md:text-5xl font-semibold mb-6">
-          Automatisiere deine Agentur mit{" "}
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-6">
+          Die moderne Plattform für{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-300">
-            AgenturAutomate
+            automatisierte Agenturprozesse
           </span>
         </h1>
 
         {/* Subline */}
         <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed mb-12">
-          Die Plattform, die Chaos eliminiert, Prozesse beschleunigt und echte Skalierung ermöglicht —
-          ohne zusätzliche Mitarbeiter.
+          Weniger Chaos. Schnellere Abläufe. Bessere Skalierung.  
+          AgenturAutomate bringt Struktur, Klarheit und Automatisierung in deinen Alltag.
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex justify-center gap-4 mb-16">
+        <div className="flex justify-center gap-4 mb-20">
           <a
             href="/signup"
             className="bg-white text-black px-8 py-3 rounded-lg font-medium hover:bg-gray-200 transition"
@@ -41,26 +41,32 @@
           </a>
         </div>
 
-        {/* Hero Grid im Agentur-Stil */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+        {/* Premium Cards (Hero-Style) */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
-            <h3 className="text-xl font-semibold mb-3">Weniger Chaos</h3>
-            <p className="text-gray-400">
+            <h3 className="text-xl font-semibold tracking-tight text-white mb-3">
+              Weniger Chaos
+            </h3>
+            <p className="text-gray-400 leading-relaxed text-[15px]">
               Zentrale Wissensbasis statt verstreuter Dokumente, Mails und Notizen.
             </p>
           </div>
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
-            <h3 className="text-xl font-semibold mb-3">Schnellere Abläufe</h3>
-            <p className="text-gray-400">
+            <h3 className="text-xl font-semibold tracking-tight text-white mb-3">
+              Schnellere Abläufe
+            </h3>
+            <p className="text-gray-400 leading-relaxed text-[15px]">
               Automatisierte Prozesse sparen täglich Stunden und reduzieren Fehler.
             </p>
           </div>
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
-            <h3 className="text-xl font-semibold mb-3">Bessere Skalierung</h3>
-            <p className="text-gray-400">
+            <h3 className="text-xl font-semibold tracking-tight text-white mb-3">
+              Bessere Skalierung
+            </h3>
+            <p className="text-gray-400 leading-relaxed text-[15px]">
               Wissen hängt nicht mehr an einzelnen Personen, sondern an Systemen.
             </p>
           </div>
