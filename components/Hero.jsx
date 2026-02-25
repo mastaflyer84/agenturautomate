@@ -19,10 +19,27 @@
         </h1>
 
         {/* Subline */}
-        <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed mb-16">
-          Die Plattform, die Chaos eliminiert, Prozesse beschleunigt und echte Skalierung ermöglicht — 
+        <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed mb-12">
+          Die Plattform, die Chaos eliminiert, Prozesse beschleunigt und echte Skalierung ermöglicht —
           ohne zusätzliche Mitarbeiter.
         </p>
+
+        {/* CTA Buttons */}
+        <div className="flex justify-center gap-4 mb-16">
+          <a
+            href="/signup"
+            className="bg-white text-black px-8 py-3 rounded-lg font-medium hover:bg-gray-200 transition"
+          >
+            Kostenlos starten
+          </a>
+
+          <a
+            href="/demo"
+            className="px-8 py-3 rounded-lg border border-white/20 hover:border-white/40 transition"
+          >
+            Demo ansehen
+          </a>
+        </div>
 
         {/* Hero Grid im Agentur-Stil */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
