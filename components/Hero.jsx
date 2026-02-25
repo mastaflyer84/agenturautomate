@@ -1,6 +1,6 @@
-﻿export default function HeroCase() {
+﻿export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#0A0A0A] text-white py-32">
+    <section className="py-32 relative overflow-hidden bg-[#0A0A0A] text-white">
 
       {/* Aurora Background */}
       <div className="absolute inset-0 pointer-events-none">
@@ -8,73 +8,47 @@
         <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-teal-400/20 blur-[160px] rounded-full"></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 text-center">
 
-        {/* Left: Case Content */}
-        <div>
-          <span className="text-sm uppercase tracking-widest text-gray-400">
-            Case Study
+        {/* Headline */}
+        <h1 className="text-4xl md:text-5xl font-semibold mb-6">
+          Automatisiere deine Agentur mit{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-300">
+            AgenturAutomate
           </span>
+        </h1>
 
-          <h1 className="text-4xl md:text-5xl font-semibold leading-tight mt-4">
-            Wie <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-300">AgenturAutomate</span> 
-            einer Agentur half, ihre Abläufe radikal zu optimieren.
-          </h1>
+        {/* Subline */}
+        <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed mb-16">
+          Die Plattform, die Chaos eliminiert, Prozesse beschleunigt und echte Skalierung ermöglicht — 
+          ohne zusätzliche Mitarbeiter.
+        </p>
 
-          <p className="text-gray-300 mt-6 text-lg leading-relaxed">
-            Ein tiefgehender Blick darauf, wie moderne Automatisierung 
-            Zeit spart, Fehler reduziert und Skalierung ermöglicht.
-          </p>
+        {/* Hero Grid im Agentur-Stil */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
 
-          {/* KPIs */}
-          <div className="mt-10 grid grid-cols-2 gap-6">
-            <div>
-              <p className="text-3xl font-semibold text-white">–80%</p>
-              <p className="text-gray-400 text-sm">weniger manuelle Arbeit</p>
-            </div>
-            <div>
-              <p className="text-3xl font-semibold text-white">+3h</p>
-              <p className="text-gray-400 text-sm">Zeit pro Tag gewonnen</p>
-            </div>
-            <div>
-              <p className="text-3xl font-semibold text-white">4×</p>
-              <p className="text-gray-400 text-sm">schnellere Abläufe</p>
-            </div>
-            <div>
-              <p className="text-3xl font-semibold text-white">100%</p>
-              <p className="text-gray-400 text-sm">Transparenz</p>
-            </div>
+          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
+            <h3 className="text-xl font-semibold mb-3">Weniger Chaos</h3>
+            <p className="text-gray-400">
+              Zentrale Wissensbasis statt verstreuter Dokumente, Mails und Notizen.
+            </p>
           </div>
 
-          {/* CTA */}
-          <div className="mt-12 flex gap-4">
-            <a
-              href="/signup"
-              className="bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition"
-            >
-              Kostenlos starten
-            </a>
-
-            <a
-              href="/cases"
-              className="px-6 py-3 rounded-lg border border-white/20 hover:border-white/40 transition"
-            >
-              Weitere Cases
-            </a>
+          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
+            <h3 className="text-xl font-semibold mb-3">Schnellere Abläufe</h3>
+            <p className="text-gray-400">
+              Automatisierte Prozesse sparen täglich Stunden und reduzieren Fehler.
+            </p>
           </div>
+
+          <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:border-white/20 transition">
+            <h3 className="text-xl font-semibold mb-3">Bessere Skalierung</h3>
+            <p className="text-gray-400">
+              Wissen hängt nicht mehr an einzelnen Personen, sondern an Systemen.
+            </p>
+          </div>
+
         </div>
-
-        {/* Right: Case Mockup */}
-        <div className="relative">
-          <div className="rounded-xl overflow-hidden border border-white/10 shadow-2xl shadow-black/40">
-            <img
-              src="/images/case-dashboard.png"
-              alt="Case Study Dashboard"
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-
       </div>
     </section>
   );
