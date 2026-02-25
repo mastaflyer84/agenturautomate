@@ -8,7 +8,7 @@ export default function AboutPage() {
         <div className="absolute top-40 right-0 w-[550px] h-[550px] bg-teal-400/15 blur-[180px] rounded-full"></div>
       </div>
 
-      {/* Intro Section */}
+      {/* Intro */}
       <section className="py-32 text-center max-w-4xl mx-auto px-6">
         <h1 className="text-4xl md:text-6xl font-semibold tracking-tight mb-6">
           Über{" "}
@@ -19,71 +19,46 @@ export default function AboutPage() {
 
         <p className="text-gray-300 text-lg leading-relaxed">
           Wir helfen Marketing‑Agenturen dabei, ihre Prozesse zu automatisieren, Wissen zu zentralisieren 
-          und Angebote schneller zu erstellen.  
-          AgenturAutomate ist die moderne Plattform für Klarheit, Struktur und Effizienz.
+          und Angebote schneller zu erstellen.
         </p>
       </section>
 
-      {/* Mission Section */}
-      <section className="py-24 max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-10 text-center">
-          Unsere Mission
-        </h2>
+      {/* Mission, Vision, Values in Premium Cards */}
+      <section className="py-24 max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
 
-        <p className="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-center">
-          Wir glauben, dass Agenturen nur dann wirklich wachsen können, wenn sie von repetitiven Aufgaben 
-          entlastet werden. Unsere Mission ist es, Tools zu entwickeln, die Klarheit schaffen, 
-          Prozesse vereinfachen und Teams stärken.
-        </p>
-      </section>
-
-      {/* Vision Section */}
-      <section className="py-24 max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-10 text-center">
-          Unsere Vision
-        </h2>
-
-        <p className="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-center">
-          Eine Welt, in der Agenturen nicht mehr im Chaos versinken, sondern mit klaren Strukturen, 
-          automatisierten Abläufen und intelligenten Systemen arbeiten — ohne Stress, ohne Reibungsverluste.
-        </p>
-      </section>
-
-      {/* Values Section */}
-      <section className="py-24 max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-16 text-center">
-          Unsere Werte
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-
-          <div className="p-10 rounded-xl bg-white/5 border border-white/10">
-            <h3 className="text-xl font-semibold mb-3">Klarheit</h3>
-            <p className="text-gray-400 leading-relaxed text-[15px]">
-              Wir schaffen Systeme, die Ordnung bringen und Teams entlasten — ohne unnötige Komplexität.
-            </p>
-          </div>
-
-          <div className="p-10 rounded-xl bg-white/5 border border-white/10">
-            <h3 className="text-xl font-semibold mb-3">Effizienz</h3>
-            <p className="text-gray-400 leading-relaxed text-[15px]">
-              Automatisierung soll nicht überfordern, sondern Zeit sparen und den Alltag erleichtern.
-            </p>
-          </div>
-
-          <div className="p-10 rounded-xl bg-white/5 border border-white/10">
-            <h3 className="text-xl font-semibold mb-3">Transparenz</h3>
-            <p className="text-gray-400 leading-relaxed text-[15px]">
-              Prozesse müssen sichtbar, nachvollziehbar und für alle zugänglich sein.
-            </p>
-          </div>
-
+        {/* Mission */}
+        <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+          <h3 className="text-2xl font-semibold mb-4">Unsere Mission</h3>
+          <p className="text-gray-300 leading-relaxed">
+            Agenturen von repetitiven Aufgaben befreien, damit sie sich auf Kreativität, Strategie 
+            und Wachstum konzentrieren können.
+          </p>
         </div>
+
+        {/* Vision */}
+        <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+          <h3 className="text-2xl font-semibold mb-4">Unsere Vision</h3>
+          <p className="text-gray-300 leading-relaxed">
+            Eine Welt, in der Agenturen mit klaren Strukturen, automatisierten Abläufen und 
+            intelligenten Systemen arbeiten — ohne Chaos.
+          </p>
+        </div>
+
+        {/* Werte */}
+        <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+          <h3 className="text-2xl font-semibold mb-4">Unsere Werte</h3>
+          <ul className="space-y-3 text-gray-300">
+            <li>• Klarheit</li>
+            <li>• Effizienz</li>
+            <li>• Transparenz</li>
+          </ul>
+        </div>
+
       </section>
 
       {/* Founder Message */}
       <section className="py-24 max-w-5xl mx-auto px-6">
-        <div className="p-12 rounded-xl bg-white/5 border border-white/10">
+        <div className="p-12 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-6">
             Eine Nachricht vom Gründer
           </h2>
@@ -100,7 +75,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA */}
       <section className="py-32 text-center max-w-4xl mx-auto px-6">
         <h2 className="text-3xl md:text-5xl font-semibold tracking-tight mb-8">
           Bereit, deine Agentur zu transformieren?
