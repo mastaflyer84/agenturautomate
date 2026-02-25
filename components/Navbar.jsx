@@ -27,8 +27,8 @@ export default function Navbar() {
           <Link href="/angebote" className={isActive("/angebote")}>Angebotsgenerator</Link>
           <Link href="/agentur" className={isActive("/agentur")}>Für Agenturen</Link>
           <Link href="/preise" className={isActive("/preise")}>Preise</Link>
-          <Link href="/kontakt" className={`btn btn-primary btn-small ${isActive("/kontakt")}`}>Demo</Link>
           <Link href="/about" className={`hover:text-white transition ${isActive("/about")}`}>Über uns</Link>
+          <Link href="/kontakt" className={`btn btn-primary btn-small ${isActive("/kontakt")}`}>Demo</Link>
         </nav>
 
         {/* Mobile Hamburger Button */}
@@ -51,6 +51,7 @@ export default function Navbar() {
           <Link href="/angebote" onClick={() => setOpen(false)}>Angebotsgenerator</Link>
           <Link href="/agentur" onClick={() => setOpen(false)}>Für Agenturen</Link>
           <Link href="/preise" onClick={() => setOpen(false)}>Preise</Link>
+          <Link href="/about" onClick={() => setOpen(false)}>Über uns</Link>
           <Link href="/kontakt" onClick={() => setOpen(false)} className="btn btn-primary btn-small">Demo</Link>
         </div>
       )}
