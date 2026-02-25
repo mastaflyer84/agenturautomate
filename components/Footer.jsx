@@ -27,43 +27,39 @@
             </a>
           </div>
         </div>
-
-        {/* Right Side: Navigation */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 md:w-2/3">
-
-          {/* Produkt */}
-          <div>
-            <h4 className="text-white font-medium mb-4">Produkt</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a className="hover:text-white transition" href="#">Features</a></li>
-              <li><a className="hover:text-white transition" href="#">Preise</a></li>
-              <li><a className="hover:text-white transition" href="#">Integrationen</a></li>
-              <li><a className="hover:text-white transition" href="#">Roadmap</a></li>
-            </ul>
-          </div>
-
-          {/* Unternehmen */}
-          <div>
-            <h4 className="text-white font-medium mb-4">Unternehmen</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a className="hover:text-white transition" href="#">Über uns</a></li>
-              <li><a className="hover:text-white transition" href="#">Blog</a></li>
-              <li><a className="hover:text-white transition" href="#">Karriere</a></li>
-            </ul>
-          </div>
-
-          {/* Rechtliches */}
-          <div>
-            <h4 className="text-white font-medium mb-4">Rechtliches</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a className="hover:text-white transition" href="#">Impressum</a></li>
-              <li><a className="hover:text-white transition" href="#">Datenschutz</a></li>
-              <li><a className="hover:text-white transition" href="#">AGB</a></li>
-            </ul>
-          </div>
-
-        </div>
+      
       </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:w-2/3">
+
+  <div>
+    <h4 className="text-white font-medium mb-4">Produkt</h4>
+    <ul className="space-y-2 text-gray-400">
+      <li><a className="hover:text-white transition" href="#">Features</a></li>
+      <li><a className="hover:text-white transition" href="#">Preise</a></li>
+      <li><a className="hover:text-white transition" href="#">Integrationen</a></li>
+      <li><a className="hover:text-white transition" href="#">Roadmap</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 className="text-white font-medium mb-4">Unternehmen</h4>
+    <ul className="space-y-2 text-gray-400">
+      <li><a className="hover:text-white transition" href="#">Über uns</a></li>
+      <li><a className="hover:text-white transition" href="#">Blog</a></li>
+      <li><a className="hover:text-white transition" href="#">Karriere</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 className="text-white font-medium mb-4">Rechtliches</h4>
+    <ul className="space-y-2 text-gray-400">
+      <li><a className="hover:text-white transition" href="#">Impressum</a></li>
+      <li><a className="hover:text-white transition" href="#">Datenschutz</a></li>
+      <li><a className="hover:text-white transition" href="#">AGB</a></li>
+    </ul>
+  </div>
+
+</div>
 
       {/* Bottom Line */}
       <div className="border-t border-white/10 py-6 text-center text-gray-500 text-sm">
