@@ -29,7 +29,6 @@
         </div>
       
       </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:w-2/3">
 
   <div>
     <h4 className="text-white font-medium mb-4">Produkt</h4>
@@ -59,7 +58,7 @@
     </ul>
   </div>
 
-</div>
+
 
       {/* Bottom Line */}
       <div className="border-t border-white/10 py-6 text-center text-gray-500 text-sm">
