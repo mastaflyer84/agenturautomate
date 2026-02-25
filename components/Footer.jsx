@@ -1,6 +1,6 @@
 ﻿export default function Footer() {
   return (
-    <footer className="bg-[#0A0A0A] text-white py-20 relative overflow-hidden">
+    <footer className="bg-[#0A0A0A] text-white py-20 relative overflow-hidden w-full">
 
       {/* Aurora Background */}
       <div className="absolute inset-0 pointer-events-none">
@@ -8,13 +8,14 @@
         <div className="absolute bottom-20 right-0 w-[550px] h-[550px] bg-teal-400/15 blur-[180px] rounded-full"></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      {/* WICHTIG: Dieser Container darf NICHT schmaler sein */}
+      <div className="relative max-w-7xl mx-auto px-6 w-full">
 
-        {/* GRID: garantiert nebeneinander */}
+        {/* WICHTIG: Kein flex, kein width-limit, kein container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 w-full">
 
           {/* Produkt */}
-          <div>
+          <div className="w-full">
             <h4 className="text-white font-medium mb-4">Produkt</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a className="hover:text-white transition" href="#">Features</a></li>
@@ -25,7 +26,7 @@
           </div>
 
           {/* Unternehmen */}
-          <div>
+          <div className="w-full">
             <h4 className="text-white font-medium mb-4">Unternehmen</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a className="hover:text-white transition" href="#">Über uns</a></li>
@@ -35,7 +36,7 @@
           </div>
 
           {/* Rechtliches */}
-          <div>
+          <div className="w-full">
             <h4 className="text-white font-medium mb-4">Rechtliches</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a className="hover:text-white transition" href="#">Impressum</a></li>
