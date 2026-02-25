@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="sectiom">
+    <div className="section">
 
       {/* Aurora Background */}
       <div className="absolute inset-0 pointer-events-none -z-10">
@@ -24,10 +24,10 @@ export default function AboutPage() {
       </section>
 
       {/* Mission, Vision, Values in Premium Cards */}
-      <section className="py-24 max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <section className="py-24 max-w-7xl mx-asectiouto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
 
         {/* Mission */}
-        <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+        <div className="card">
           <h3 className="text-2xl font-semibold mb-4">Unsere Mission</h3>
           <p className="text-gray-300 leading-relaxed">
             Agenturen von repetitiven Aufgaben befreien, damit sie sich auf Kreativität, Strategie 
@@ -45,19 +45,19 @@ export default function AboutPage() {
         </div>
 
         {/* Werte */}
-        <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+        <div className="card">
           <h3 className="text-2xl font-semibold mb-4">Unsere Werte</h3>
-          <ul className="space-y-3 text-gray-300">
+            <p className="space-y-3 text-gray-300">
             <li>• Klarheit</li>
             <li>• Effizienz</li>
             <li>• Transparenz</li>
-          </ul>
+          </p>
         </div>
 
       </section>
 
       {/* Founder Message */}
-      <section className="py-24 max-w-5xl mx-auto px-6">
+      <section className="card">
         <div className="p-12 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-6">
             Eine Nachricht vom Gründer
