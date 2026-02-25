@@ -10,8 +10,8 @@
 
       <div className="relative max-w-7xl mx-auto px-6">
 
-        {/* Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full">
+        {/* GRID: garantiert nebeneinander */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 w-full">
 
           {/* Produkt */}
           <div>
