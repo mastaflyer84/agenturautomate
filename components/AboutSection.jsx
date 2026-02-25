@@ -1,4 +1,4 @@
-export default function Features() {
+export default function AboutSection() {
   return (
     <section className="relative py-32 overflow-hidden">
 
@@ -9,34 +9,40 @@ export default function Features() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6">
+
         <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-center mb-16">
-          Was Finkora für deine Agentur tut
+          Über Finkora
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 
           <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold mb-3">Angebote in Minuten</h3>
-            <p className="text-gray-300 leading-relaxed text-[15px]">
-              Erstelle professionelle Angebote in Rekordzeit – klar strukturiert, automatisch formuliert und sofort versandbereit.
+            <h3 className="text-2xl font-semibold mb-4">Unsere Mission</h3>
+            <p className="text-gray-300 leading-relaxed">
+              Agenturen von repetitiven Aufgaben befreien, damit sie sich auf Kreativität, Strategie 
+              und Wachstum konzentrieren können.
             </p>
           </div>
 
           <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold mb-3">Zentralisiertes Agentur‑Wissen</h3>
-            <p className="text-gray-300 leading-relaxed text-[15px]">
-              Speichere dein gesamtes Agentur‑Know‑how an einem Ort und ermögliche deinem Team schnellen, klaren Zugriff.
+            <h3 className="text-2xl font-semibold mb-4">Unsere Vision</h3>
+            <p className="text-gray-300 leading-relaxed">
+              Eine Welt, in der Agenturen mit klaren Strukturen, automatisierten Abläufen und 
+              intelligenten Systemen arbeiten – ohne Chaos.
             </p>
           </div>
 
           <div className="p-10 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold mb-3">Automatisierte Prozesse</h3>
-            <p className="text-gray-300 leading-relaxed text-[15px]">
-              Automatisiere wiederkehrende Aufgaben und spare jeden Tag wertvolle Zeit – ohne technische Hürden.
-            </p>
+            <h3 className="text-2xl font-semibold mb-4">Unsere Werte</h3>
+            <ul className="space-y-3 text-gray-300">
+              <li>• Klarheit</li>
+              <li>• Effizienz</li>
+              <li>• Transparenz</li>
+            </ul>
           </div>
 
         </div>
+
       </div>
     </section>
   );
